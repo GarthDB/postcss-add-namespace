@@ -15,11 +15,11 @@ Namespace plugin for PostCSS - based on [Kristofer Joseph's](http://twitter.com/
 Pass the namespace as the first argument:
 
 ```js
-var namespace = require('rework-namespace');
+var namespace = require('postcss-add-namespace');
 
-var css = rework('.button { color: black; }')
-  .use(namespace('ns'))
-  .toString();
+var css = postcss([namespace('ns')])
+  .process('.button { color: black; }')
+  .then(results => {results.toString()});
 ```
 
 Results:
@@ -37,9 +37,9 @@ Pass an options object as the second argument.
 Don't prefix specific classes or classes that match a regex.
 
 ```js
-var css = rework(inputCSS)
-  .use(namespace('ns', { not: [ /\.icon/, '.button-bar' ] }))
-  .toString();
+var css = postcss([namespace('ns', { not: [ /\.icon/, '.button-bar' ] })])
+  .process(inputCSS)
+  .then(results => {results.toString()});
 ```
 
 #### options.only
@@ -47,9 +47,9 @@ var css = rework(inputCSS)
 Only prefix specific classes or classes that match a regex.
 
 ```js
-var css = rework(inputCSS)
-  .use(namespace('ns', { only: [ /\.icon/, '.icon-group' ] }))
-  .toString();
+var css = postcss([namespace('ns', { only: [ /\.icon/, '.icon-group' ] })])
+  .process(inputCSS)
+  .then(results => {results.toString()});
 ```
 
 ### Examples
@@ -57,28 +57,27 @@ var css = rework(inputCSS)
 #### Prefix every class
 
 ```js
-var css = rework(inputCSS)
-  .use(namespace('ns'))
-  .toString();
+var css = postcss([namespace('ns')])
+  .process(inputCSS)
+  .then(results => {results.toString()});
 ```
 
 #### Prefix every class except icon classes
 
 ```js
-var css = rework(inputCSS)
-  .use(namespace('ns', {
-    not: /\.icon-/,
-  }))
-  .toString();
+var css = postcss([namespace('ns', { not: /\.icon-/ })])
+  .process(inputCSS)
+  .then(results => {results.toString()});
 ```
 
 #### Prefix all classes with "button" in them except .button itself
 
 ```js
-var css = rework(inputCSS)
-  .use(namespace('ns', {
+
+var css = postcss([namespace('ns', {
     only: /button/,
     not: '.button'
-  }))
-  .toString();
+  })])
+  .process(inputCSS)
+  .then(results => {results.toString()});
 ```
