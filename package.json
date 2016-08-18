@@ -1,6 +1,6 @@
 {
   "name": "postcss-add-namespace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Namespace plugin for PostCSS",
   "main": "lib/index.js",
   "directories": {
