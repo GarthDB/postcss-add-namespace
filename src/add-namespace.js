@@ -26,7 +26,7 @@ function selectorMatchesTest(selector, test) {
  *  Public:
  *
  *  * `selector` {String} selector to check if it matches the tests.
- *  * `test` {String} or {Array} of {Strings} to use to check.
+ *  * `test` {String} or {Array} of {Strings} or {RegExp} to use to check.
  *  * `fallback` {Bool} if no `test` are added, it will return `fallback`.
  *
  *  ## Example
