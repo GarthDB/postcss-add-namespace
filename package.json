@@ -45,7 +45,7 @@
   "homepage": "https://github.com/GarthDB/postcss-add-namespace#readme",
   "dependencies": {
     "debug": "^2.2.0",
-    "postcss": "^5.1.2"
+    "postcss": "^5.2.10"
   },
   "devDependencies": {
     "ava": "^0.16.0",
