@@ -1,0 +1,339 @@
+repo_name: GarthDB/postcss-add-namespace
+report_id: 60f14fb725dca4ae92e69f2c4baae39d
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T00:07:34+00:00'
+requested_by: GarthDB
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace
+  detection_source: Repo Metadata
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  version: 6.9.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace
+  detection_source: Repo Metadata
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: ".babelrc"
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: Code Climate
+  description: Automated Ruby Code Review
+  website_url: https://codeclimate.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: React Navigation
+  description: Flexible navigation library for React Native and web. Learn once, navigate
+    anywhere.
+  website_url: https://reactnavigation.org/
+  open_source: false
+  hosted_saas: false
+  category: Mobile
+  sub_category: Cross-Platform Mobile Tools
+  image_url: https://img.stackshare.io/service/6422/react-navigation.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: ava
+  description: Testing can be a drag. AVA helps you get it done
+  package_url: https://www.npmjs.com/ava
+  version: 0.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: babel-cli
+  description: Babel command line
+  package_url: https://www.npmjs.com/babel-cli
+  version: 6.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15804/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: babel-plugin-add-module-exports
+  description: Fix babel/babel#2212
+  package_url: https://www.npmjs.com/babel-plugin-add-module-exports
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15943/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: babel-plugin-istanbul
+  description: A babel plugin that adds istanbul instrumentation to ES6 code
+  package_url: https://www.npmjs.com/babel-plugin-istanbul
+  version: 2.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16032/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: babel-register
+  description: Babel require hook
+  package_url: https://www.npmjs.com/babel-register
+  version: 6.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15865/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: codeclimate-test-reporter
+  description: Code Climate test reporter client for javascript projects
+  package_url: https://www.npmjs.com/codeclimate-test-reporter
+  version: 0.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16409/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 8.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/GarthDB/postcss-add-namespace/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: garthdb
+  last_updated_on: 2016-08-18 06:18:52.000000000 Z
